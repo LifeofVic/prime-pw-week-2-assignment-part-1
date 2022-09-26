@@ -34,7 +34,7 @@ var food = "Pizza";
 var pets = 1;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-var friendsPets = 2;
+var friendsPets = 3;
 
 // 11 - Add two pets to your `pets` variable
 pets = pets + 2;
@@ -86,12 +86,36 @@ else if (pets > allowedPets) {
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
+var mostPets = 0;
+
+if (pets > friendsPets) {
+	
+	mostPets = pets;
+	console.log("I have the most pets!");
+	
+}
+else if (pets < friendsPets) {
+	mostPets = friendsPets;
+	console.log("My friend has the most pets!");
+	
+}
+else if (pets = friendsPets)
+{
+	mostPets = pets =friendsPets;
+	console.log("We both have " + mostPets + " pets.");
+	
+}
+//console.log("Value for mostPets is: " + mostPets);
+
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
 //      "Second is the best" if your lucky number is 2
 //      "Third is the one with the polka dot dress" if your lucky number is 3
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
+
+
+
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
