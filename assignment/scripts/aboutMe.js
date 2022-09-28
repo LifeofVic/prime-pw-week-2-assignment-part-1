@@ -131,4 +131,8 @@ switch (luckyNumber) {
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-
+function isAdventurous(adventurous) {
+	return (adventurous ? 'Adventures are great!' : 'How about we stay home?');
+}
+//Uses 1 condition and have to ExpressTrue and ExpressFalse as the syntax.
+ // console.log("Using ternary operator |  :  " + isAdventurous(adventurous));
