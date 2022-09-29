@@ -134,5 +134,5 @@ switch (luckyNumber) {
 function isAdventurous(adventurous) {
 	return (adventurous ? 'Adventures are great!' : 'How about we stay home?');
 }
-//Uses 1 condition and have to ExpressTrue and ExpressFalse as the syntax.
+//Uses 1 condition and has an ExpressTrue and ExpressFalse as the syntax.
  // console.log("Using ternary operator |  :  " + isAdventurous(adventurous));
